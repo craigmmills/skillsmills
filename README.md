@@ -6,15 +6,22 @@ Skills here are lightweight — instructions and templates, not CLI tools or hea
 
 ## Installation
 
-Clone the repo, then run the installer. It symlinks every skill into `~/.claude/skills/` so they become system-available the next time Claude Code starts.
+This repo is a [Claude Code plugin](https://docs.anthropic.com/en/docs/claude-code/plugins), so the preferred install path is the plugin manager:
 
-```sh
-git clone git@github.com:<your-github>/skillsmills.git ~/Projects/skillsmills
-cd ~/Projects/skillsmills
-./install.sh
+```
+/plugin install craigmmills/skillsmills
 ```
 
-The installer is idempotent — re-run any time you add a new skill or pull updates. It never overwrites an existing symlink that points elsewhere; conflicts are reported, not silently resolved.
+Or, if you'd rather clone and symlink manually (e.g. so you can edit skills in-place and have changes take effect immediately):
+
+```sh
+git clone git@github.com:craigmmills/skillsmills.git ~/Projects/skillsmills
+~/Projects/skillsmills/install.sh
+```
+
+`install.sh` walks for every `SKILL.md` in the repo and symlinks its parent directory into `~/.claude/skills/`. It's idempotent — re-run any time you add a new skill or pull updates. Conflicts (existing symlinks pointing elsewhere, or real files in the way) are reported and skipped, never overwritten.
+
+Skills become available on the next Claude Code session start.
 
 ## Adding a new skill
 
