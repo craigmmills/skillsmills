@@ -33,6 +33,8 @@ Skills become available on the next Claude Code session start.
 ## Current skills
 
 - **[`seed-four-layers/`](seed-four-layers/SKILL.md)** — Coach a new project into the four-layer pattern (SoT, Framework, Studio, Output) and scaffold a short manifest plus per-layer READMEs.
+- **[`build-presentation/`](build-presentation/SKILL.md)** — Install a project-local Google Slides deck generator (Python + JSON spec → editable deck) with per-project OAuth credentials.
+- **[`presentation-architect/`](presentation-architect/SKILL.md)** — Interactive walkthrough that builds powerful, memorable presentations by synthesising Patrick Winston (MIT), Nancy Duarte (Resonate), and Simon Sinek (Start With Why). From core message to opening script, slide outline, and strong close.
 
 ## Future direction
 
