@@ -1,0 +1,10 @@
+{
+  "name": "mermaid-to-miro",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Convert this repo's Mermaid diagrams into an organised Miro board (frames + shapes + connectors) with classDef styling preserved.",
+  "dependencies": {
+    "@dagrejs/dagre": "^1.1.4"
+  }
+}

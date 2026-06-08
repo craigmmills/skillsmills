@@ -35,6 +35,7 @@ Skills become available on the next Claude Code session start.
 - **[`seed-four-layers/`](seed-four-layers/SKILL.md)** — Coach a new project into the four-layer pattern (SoT, Framework, Studio, Output) and scaffold a short manifest plus per-layer READMEs.
 - **[`build-presentation/`](build-presentation/SKILL.md)** — Install a project-local Google Slides deck generator (Python + JSON spec → editable deck) with per-project OAuth credentials.
 - **[`presentation-architect/`](presentation-architect/SKILL.md)** — Interactive walkthrough that builds powerful, memorable presentations by synthesising Patrick Winston (MIT), Nancy Duarte (Resonate), and Simon Sinek (Start With Why). From core message to opening script, slide outline, and strong close.
+- **[`mermaid-to-miro/`](mermaid-to-miro/SKILL.md)** — Install a project-local Node tool that turns a folder of Mermaid diagrams into an editable Miro board: auto-layout (dagre), one frame per diagram or grouped into titled sections, a legend, and the boxes inside each container grouped so they move together.
 
 ## Future direction
 

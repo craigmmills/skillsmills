@@ -1,6 +1,7 @@
 {
   "name": "skillsmills",
   "skills": [
-    "./seed-four-layers"
+    "./seed-four-layers",
+    "./mermaid-to-miro"
   ]
 }
